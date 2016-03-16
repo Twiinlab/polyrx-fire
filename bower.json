@@ -4,12 +4,13 @@
   "authors": [
     "dvdchavarri <dvdchavarri@gmail.com>"
   ],
-  "description": "An element providing a solution to no problem in particular.",
+  "description": "An Polymer element that takes the advantage of ReactiveX Observers and FireBase.",
   "keywords": [
     "web-component",
     "web-components",
     "polymer",
-    "seed"
+    "reactivex",
+    "firebase"
   ],
   "main": "polyrx-fire.html",
   "license": "http://polymer.github.io/LICENSE.txt",

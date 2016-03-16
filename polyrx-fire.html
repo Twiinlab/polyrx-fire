@@ -14,7 +14,7 @@ An element providing a solution to no problem in particular.
 
 Example:
 
-    <seed-element></seed-element>
+    <polyrx-fire></polyrx-fire>
 
 @demo
 -->
@@ -35,7 +35,7 @@ Example:
   </style>
 
   <template>
-    <h1>&lt;seed-element&gt;</h1>
+    <h1>&lt;polyrx-fire&gt;</h1>
     <content></content>
     <p class="author">
       <img src="{{author.image}}">
@@ -50,7 +50,7 @@ Example:
 
   Polymer({
 
-    is: 'seed-element',
+    is: 'polyrx-fire',
 
     properties: {
 
@@ -79,8 +79,8 @@ Example:
         // prototype).
         value: function() {
           return {
-            name:  'Dimitri Glazkov',
-            image: 'http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg',
+            name:  'TwiinLab',
+            image: 'http://www.besthdwallpapershits.com/wp-content/uploads/2016/03/funny-cartoon-unicorn-pictures-1.jpg',
           };
         }
       },
@@ -117,9 +117,9 @@ Example:
     // Element Behavior
 
     /**
-     * The `seed-element-lasers` event is fired whenever `fireLasers` is called.
+     * The `polyrx-fire-lasers` event is fired whenever `fireLasers` is called.
      *
-     * @event seed-element-lasers
+     * @event polyrx-fire-lasers
      * @detail {{sound: String}}
      */
 
@@ -131,7 +131,7 @@ Example:
      */
     sayHello: function(greeting) {
       var response = greeting || 'Hello World!';
-      return 'seed-element says, ' + response;
+      return 'polyrx-fire says, ' + response;
     },
 
     /**
@@ -141,7 +141,7 @@ Example:
      * do the zapping.
      */
     fireLasers: function() {
-      this.fire('seed-element-lasers', {sound: 'Pew pew!'});
+      this.fire('polyrx-fire-lasers', {sound: 'Pew pew!'});
     }
 
   });

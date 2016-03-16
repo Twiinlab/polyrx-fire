@@ -1,10 +1,12 @@
 # polyrx-fire
 
+[![travis build](https://img.shields.io/travis/kentcdodds/starwars-names.svg?style=flat-square)](https://travis-ci.org/Twiinlab/polyrx-fire)
+
 An element providing a starting point for your own reusable Polymer elements.
 
 
 ## Dependencies
-
+https://travis-ci.org/Twiinlab/polyrx-fire
 Element dependencies are managed via [Bower](http://bower.io/). You can
 install that via:
 

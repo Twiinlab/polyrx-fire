@@ -1,8 +1,8 @@
 {
-  "name": "seed-element",
+  "name": "polyrx-fire",
   "version": "1.0.0",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "dvdchavarri <dvdchavarri@gmail.com>"
   ],
   "description": "An element providing a solution to no problem in particular.",
   "keywords": [
@@ -11,9 +11,9 @@
     "polymer",
     "seed"
   ],
-  "main": "seed-element.html",
+  "main": "polyrx-fire.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/Twiinlab/polyrx-fire/",
   "ignore": [
     "/.*",
     "/test/",

@@ -1,7 +1,26 @@
 language: node_js
 node_js: stable
+addons:
+  firefox: latest
+  sauce_connect: true
+  apt:
+    sources:
+    - google-chrome
+    - ubuntu-toolchain-r-test
+    packages:
+    - google-chrome-stable
+    - g++-4.8
+before_script:
+  - npm install -g bower polylint web-component-tester
+  - export PATH=$PWD/node_modules/.bin:$PATH
+  - bower install
+  - polylint
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
 script:
   - bash ./gpages_build.sh Twiinlab polyrx-fire dvdchavarri dvdchavarri@gmail.com
-before_script:
-- npm install bower
-- export PATH=$PWD/node_modules/.bin:$PATH
+  - wct --sauce 'default' --sauce-username dvdchavarri --sauce-access-key b089d375-8ffa-4477-80fc-49cca1c59475
+env:
+  global:
+    - CXX=g++-4.8
+

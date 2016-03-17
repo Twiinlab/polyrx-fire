@@ -1,0 +1,39 @@
+{
+  "name": "polyrx-fire",
+  "authors": [
+    "dvdchavarri <dvdchavarri@gmail.com>"
+  ],
+  "description": "An Polymer element that takes the advantage of ReactiveX Observers and FireBase.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "reactivex",
+    "firebase"
+  ],
+  "main": "polyrx-fire.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/Twiinlab/polyrx-fire/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "_release": "9186e6ec3a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9186e6ec3a522414baf256759b99fa70d474515a"
+  },
+  "_source": "git://github.com/Twiinlab/polyrx-fire.git",
+  "_target": "master",
+  "_originalSource": "Twiinlab/polyrx-fire",
+  "_direct": true
+}
